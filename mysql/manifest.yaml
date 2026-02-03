@@ -34,10 +34,9 @@ metadata:
   namespace: expense
 spec:
   selector:
-    labels:
-      project: expense
-      component: mysql
-      tier: db
+    project: expense
+    component: mysql
+    tier: db  
   ports:
   - protocol: TCP
     port: 3306 #service port
